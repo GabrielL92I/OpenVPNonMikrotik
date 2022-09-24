@@ -52,10 +52,10 @@ Configure OpenVPN on Mikrotik(Site-to-Client)
 
  - Creation of client certificate. `System->Certificates`
   
-  On General Tab:
-  Name: client
-  Common Name: client
-  Key Size: 2048
+   On General Tab:
+   Name: client
+   Common Name: client
+   Key Size: 2048
   
   On Key Usage Tab:
   tls client
