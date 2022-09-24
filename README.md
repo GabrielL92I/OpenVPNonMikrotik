@@ -85,3 +85,52 @@ Configure OpenVPN on Mikrotik professionaly(Site-to-Client)
 
   - Creation of the user credentials which will be used to connect to the VPN server. `PPP->Secrets`
 ![secret](https://user-images.githubusercontent.com/44748406/192101298-28a028e6-b370-4722-b022-2daa3c806b08.png)
+
+ 5- In this last step we will configure OpenVPN client to be able to connect through VPN
+ 
+  - Convert three certificates from PEM plain text to pmcks encrypted(one file) certificate.
+
+    - Download OpenSSL for Windows on this link and install it.
+    https://slproweb.com/products/Win32OpenSSL.html
+    
+    - Open CMD with admin privileages and cd to the OpenSSL bin directory
+      `cd C:\Program Files\OpenSSL-Win64\bin`
+    - Copy certificate files into the same directory and run this command
+      `openssl pkcs12 -export -in cert_export_client -inkey cert_export_client.key -certfile cert_export_CA.cert -name MyClient -out client.p12`
+    - A file named client.p12 will be generated. 
+
+   - We will create the VPN configuration file client.ovpn with the details above
+  
+     client
+     dev tun
+     proto tcp-client
+     remote 95.107.169.8
+     port 1194
+     proto tcp
+     nobind
+     persist-key
+     persist-tun
+     tls-client
+     remote-cert-tls server
+     verb 4
+     mute 10
+     cipher AES-256-CBC
+     auth SHA1
+     pkcs12 client.p12
+     auth-user-pass
+     auth-nocache
+     #Add here your local network IP if you want only network access only
+     route x.x.x.x 255.255.255.0 
+     route x.x.x.0 255.255.255.0
+     #Use this only if you want to route your VPN traffic
+     #redirect-gateway def1
+     
+     Finally you will have these two files
+     
+     
+   - Install OpenVPN client on you Windows Laptop/PC
+
+     You can download it here
+     https://openvpn.net/community-downloads/
+     
+     
