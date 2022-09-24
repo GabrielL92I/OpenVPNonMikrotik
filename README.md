@@ -11,6 +11,8 @@ Configure OpenVPN on Mikrotik professionaly(Site-to-Client)
 ![IPPOOL](https://user-images.githubusercontent.com/44748406/192097055-2a06074c-a66a-48a7-9ef4-022a829135a5.png)
  - Creation of the DHCP server. Good to have if you don't want to manually assing VPN ip addresses to the clients. `IP->DHCP Server`
 ![IPDHCPSERVER](https://user-images.githubusercontent.com/44748406/192097000-25147c4a-a62e-445a-a22b-682e6f744eab.png)
+ - Creation of the network. `IP->Networks`
+ 
 
 2- Secondly, we have to create the firewall and NAT rule for the VPN to be able for the clients to communicate with the VPN Server.
 
@@ -79,4 +81,4 @@ Configure OpenVPN on Mikrotik professionaly(Site-to-Client)
 ![OVPNSERVER](https://user-images.githubusercontent.com/44748406/192100634-bdc14c96-2590-465c-8120-3451949f4be0.png)
 
   - Creation of the profile which on this case it will be the default-encryption. `PPP->Profiles`
-
+![Profile](https://user-images.githubusercontent.com/44748406/192100861-1827ca05-caa7-4196-8253-9d06d294e578.png)
