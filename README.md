@@ -1,2 +1,2 @@
-# OpenVPNonMikrotik
-Configure openvpn on mikrotik(Site-to-client)
+# OpenVPN on Mikrotik
+Configure OpenVPN on Mikrotik(Site-to-Client)
