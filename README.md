@@ -133,4 +133,12 @@ Configure OpenVPN on Mikrotik professionaly(Site-to-Client)
      You can download it here
      https://openvpn.net/community-downloads/
      
+     Copy those two files created earlier `client.ovpn` and `client.p12` in the VPN config folder like in the photo
+     ![filess](https://user-images.githubusercontent.com/44748406/192104690-85e9177e-a510-4336-a993-369fbc4bd98e.png)
+
+     Click connect on the client, add the passphrase created earlier when you exported the certificates and after fill 
+     the user credentials.
      
+     Good job, you should be now connected! If not, check the steps again because you might have done any mistake.
+     
+     Tahnk you.
