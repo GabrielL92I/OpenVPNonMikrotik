@@ -29,38 +29,46 @@ Configure OpenVPN on Mikrotik(Site-to-Client)
    -Key Size: 2048
   
   On Key Usage Tab:
-   key cert. sing
-   crl sing
+   -key cert. sing
+   -crl sing
   
   On Sing button click:
-   CA CRL HOST: Your public IP address
+   -CA CRL HOST: Your public IP address
   
 - Creation of server certificate. `System->Certificates`
   
   On General Tab:
-   Name: server
-   Common Name: server
-   Key Size: 2048
+   -Name: server
+   -Common Name: server
+   -Key Size: 2048
   
   On Key Usage Tab:
-   digital signature
-   key encipherment
-   tls server
+   -digital signature
+   -key encipherment
+   -tls server
   
   On Sing button click:
-   CA: CA
+   -CA: CA
 
 - Creation of client certificate. `System->Certificates`
   
   On General Tab:
-   Name: client
-   Common Name: client
-   Key Size: 2048
+   -Name: client
+   -Common Name: client
+   -Key Size: 2048
   
   On Key Usage Tab:
-   tls client
+   -tls client
   
   On Sing button click:
-   CA: CA
+   -CA: CA
   
    ![Certificatescreation](https://user-images.githubusercontent.com/44748406/192099452-94fbe97e-a68a-44ad-b6f2-442fb5ff0f8f.png)
+
+- Export certificates. `System->Certificates`
+
+  Right click on CA and server certificates and click export and than export.
+  Right click on client certificate and click export, enter a passphrase and than export.
+  
+  
+  
