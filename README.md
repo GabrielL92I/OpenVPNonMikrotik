@@ -16,7 +16,7 @@ Configure OpenVPN on Mikrotik(Site-to-Client)
 
 - Creation of the firewall filter rule. `IP->Firewall->Filter Rules`
 ![IPFILTERRULES](https://user-images.githubusercontent.com/44748406/192097762-349de4da-9a68-4963-b814-3b333d9c7eae.png)
-- Creation of the NAT rule(only if you don't have this rule already). 'IP->Firewall->NAT'
+- Creation of the NAT rule(only if you don't have this rule already). `IP->Firewall->NAT`
 ![NATRULE](https://user-images.githubusercontent.com/44748406/192098130-ac7b040a-7afe-4d5c-94d7-da9df854b818.png)
 
 3- Third, we will create and export certificates(CA,server and client) needed for authentication between VPN server and client.
