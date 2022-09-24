@@ -140,5 +140,6 @@ Configure OpenVPN on Mikrotik professionaly(Site-to-Client)
      the user credentials.
      
      Good job, you should be now connected! If not, check the steps again because you might have done any mistake.
+     ![connected](https://user-images.githubusercontent.com/44748406/192104965-dc0d7c5a-e10e-49dd-92c3-867192aec85a.png)
      
      Tahnk you.
