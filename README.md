@@ -82,3 +82,6 @@ Configure OpenVPN on Mikrotik professionaly(Site-to-Client)
 
   - Creation of the profile which on this case it will be the default-encryption. `PPP->Profiles`
 ![Profile](https://user-images.githubusercontent.com/44748406/192100861-1827ca05-caa7-4196-8253-9d06d294e578.png)
+
+  - Creation of the user credentials which will be used to connect to the VPN server. `PPP->Secrets`
+
