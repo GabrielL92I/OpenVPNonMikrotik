@@ -1,5 +1,5 @@
 # OpenVPN on Mikrotik by Gabriel Lami
-Configure OpenVPN on Mikrotik(Site-to-Client)
+Configure OpenVPN on Mikrotik professionaly(Site-to-Client)
 
 1- First, we choose and create a network for the VPN clients. In this tutorial I will use `192.168.30.0/24`. Than we will create the bridge, IP Pool and DHCP Server.
 
@@ -75,4 +75,4 @@ Configure OpenVPN on Mikrotik(Site-to-Client)
   
  4- Forth, we will create the OpenVPN server, profile and secret credentials for the user who will connect to this VPN server.
  
-  - 
+  - Creation of the OpenVPN server. `PPP->OVPN Server`
