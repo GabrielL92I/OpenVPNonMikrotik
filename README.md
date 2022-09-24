@@ -73,3 +73,6 @@ Configure OpenVPN on Mikrotik(Site-to-Client)
   After export you can find the certificates on `Files` where you can download them because will need them on the client part when you will connect to the VPN.
   ![exportcertificates](https://user-images.githubusercontent.com/44748406/192100024-4636e14b-fa4b-47e8-b5e2-a03470c115dc.png)
   
+ 4- Forth, we will create the OpenVPN server, profile and secret credentials for the user who will connect to this VPN server.
+ 
+  - 
