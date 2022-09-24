@@ -22,3 +22,45 @@ Configure OpenVPN on Mikrotik(Site-to-Client)
 3- Third, we will create and export certificates(CA,server and client) needed for authentication between VPN server and client.
 
 - Creation of CA certificate. `System->Certificates`
+
+  On General Tab:
+  Name: CA
+  Common Name: CA
+  Key Size: 2048
+  
+  On Key Usage Tab:
+  key cert. sing
+  crl sing
+  
+  On Sing button click:
+  CA CRL HOST: Your public IP address
+  
+ - Creation of server certificate. `System->Certificates`
+  
+  On General Tab:
+  Name: server
+  Common Name: server
+  Key Size: 2048
+  
+  On Key Usage Tab:
+  digital signature
+  key encipherment
+  tls server
+  
+  On Sing button click:
+  CA: CA
+
+ - Creation of client certificate. `System->Certificates`
+  
+  On General Tab:
+  Name: client
+  Common Name: client
+  Key Size: 2048
+  
+  On Key Usage Tab:
+  tls client
+  
+  On Sing button click:
+  CA: CA
+  
+  
