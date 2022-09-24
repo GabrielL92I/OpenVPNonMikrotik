@@ -6,7 +6,7 @@ Configure OpenVPN on Mikrotik(Site-to-Client)
  - Creation of the bridge where the network addresses will be added. 'Bridge->Create new bridge'
 ![BridgeMikrotikVPN](https://user-images.githubusercontent.com/44748406/192095424-419f230b-a815-4f8e-9ee6-553b7cc6f7d7.png)
  - Creation of the network address. 'IP->Addresses'
- ![NetworkAddess](https://user-images.githubusercontent.com/44748406/192096389-b3d34e94-10e3-47ac-b85c-0b842a6c9aee.png)
+![NetworkAddess](https://user-images.githubusercontent.com/44748406/192097740-679f4df2-b144-416e-ba6c-08247b2cd722.png)
  - Creation of the IP Pool. You can set a desidered addresses range depending on how many clients will connect to the VPN. 'IP->Pool'
 ![IPPOOL](https://user-images.githubusercontent.com/44748406/192097055-2a06074c-a66a-48a7-9ef4-022a829135a5.png)
  - Creation of the DHCP server. Good to have if you don't want to manually assing VPN ip addresses to the clients. 'IP->DHCP Server'
