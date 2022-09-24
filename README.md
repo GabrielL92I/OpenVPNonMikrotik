@@ -126,7 +126,7 @@ Configure OpenVPN on Mikrotik professionaly(Site-to-Client)
      #redirect-gateway def1
      
      Finally you will have these two files
-    ![filess](https://user-images.githubusercontent.com/44748406/192104690-85e9177e-a510-4336-a993-369fbc4bd98e.png)
+    ![filess](https://user-images.githubusercontent.com/44748406/192105096-ed4960b0-3273-40ec-a1fa-fd71bd796157.png)
      
    - Install OpenVPN client on you Windows Laptop/PC
 
@@ -134,7 +134,7 @@ Configure OpenVPN on Mikrotik professionaly(Site-to-Client)
      https://openvpn.net/community-downloads/
      
      Copy those two files created earlier `client.ovpn` and `client.p12` in the VPN config folder like in the photo
-     ![filess](https://user-images.githubusercontent.com/44748406/192104690-85e9177e-a510-4336-a993-369fbc4bd98e.png)
+     ![filess](https://user-images.githubusercontent.com/44748406/192105096-ed4960b0-3273-40ec-a1fa-fd71bd796157.png)
 
      Click connect on the client, add the passphrase created earlier when you exported the certificates and after fill 
      the user credentials.
