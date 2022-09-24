@@ -104,7 +104,7 @@ Configure OpenVPN on Mikrotik professionally(Site-to-Client)
      client
      dev tun
      proto tcp-client
-     remote 95.107.169.8
+     remote your public IP here
      port 1194
      proto tcp
      nobind
