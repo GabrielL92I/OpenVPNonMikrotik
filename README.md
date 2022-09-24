@@ -24,9 +24,9 @@ Configure OpenVPN on Mikrotik(Site-to-Client)
 - Creation of CA certificate. `System->Certificates`
 
   On General Tab:
-   Name: CA
-   Common Name: CA
-   Key Size: 2048
+   -Name: CA
+   -Common Name: CA
+   -Key Size: 2048
   
   On Key Usage Tab:
    key cert. sing
