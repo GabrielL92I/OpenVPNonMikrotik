@@ -15,4 +15,5 @@ Configure OpenVPN on Mikrotik(Site-to-Client)
 2- Secondly, we have to create the firewall and NAT rule for the VPN to be able for the clients to communicate with the VPN Server.
 
 - Creation of the firewall filter rule. 'IP->Firewall->Filter Rules'
-![FilterRules](https://user-images.githubusercontent.com/44748406/192097480-16cf694e-c9bc-4c54-b33a-8055447e239c.png)
+![IPFILTERRULES](https://user-images.githubusercontent.com/44748406/192097762-349de4da-9a68-4963-b814-3b333d9c7eae.png)
+- Creation of the NAT rule(only if you don't have this rule already). 'IP->Firewall->NAT'
