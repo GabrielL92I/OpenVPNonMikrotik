@@ -126,7 +126,7 @@ Configure OpenVPN on Mikrotik professionaly(Site-to-Client)
      #redirect-gateway def1
      
      Finally you will have these two files
-     
+    ![filess](https://user-images.githubusercontent.com/44748406/192104690-85e9177e-a510-4336-a993-369fbc4bd98e.png)
      
    - Install OpenVPN client on you Windows Laptop/PC
 
