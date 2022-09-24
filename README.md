@@ -8,3 +8,4 @@ Configure OpenVPN on Mikrotik(Site-to-Client)
  - Creation of the network address. 'IP->Addresses'
  ![NetworkAddess](https://user-images.githubusercontent.com/44748406/192096389-b3d34e94-10e3-47ac-b85c-0b842a6c9aee.png)
  - Creation of the IP Pool. 'IP->Pool'
+ ![IPPool](https://user-images.githubusercontent.com/44748406/192096645-db55a4ac-936c-4484-8a7d-bacab0855470.png)
