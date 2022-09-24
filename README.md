@@ -70,5 +70,6 @@ Configure OpenVPN on Mikrotik(Site-to-Client)
   Right click on CA and server certificates and click export and than export.
   Right click on client certificate and click export, enter a passphrase and than export.
   
-  
+  After export you can find the certificates on `Files`
+  ![exportcertificates](https://user-images.githubusercontent.com/44748406/192100024-4636e14b-fa4b-47e8-b5e2-a03470c115dc.png)
   
