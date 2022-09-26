@@ -145,10 +145,10 @@ Configure OpenVPN on Mikrotik professionally(Site-to-Client)
      
     - Some last informations
     
-      The drawnbacks of this VPN Server over Mikrotik are:
+      The drawbacks of this VPN Server over Mikrotik are:
       
       1- OpenVPN Server on Mikrotik can't push routes to clients (can be done on client configuration)
       2- OpenVPN Server on Mikrotik can't push traffic redirection (can be done on client configuration)
-      3- OpenVPN Server on Mikrotik can't use UDP protocol (this is possible on v7 beta of the RouterOS)
+      3- OpenVPN Server on Mikrotik can't use UDP protocol (this is possible on v7 beta of the RouterOS which means it will be available in the near future)
      
      Thank you.
